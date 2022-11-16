@@ -7,7 +7,6 @@ import com.oneplanet.dto.request.ParametersRequest
 import com.oneplanet.dto.response.ClimatiqEstimateResponse
 import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Post
-//import reactor.core.publisher.Mono
 
 @Controller("/climatiq")
 class ClimatiqController(private val climatiqApiClient: ClimatiqApiClient) {
