@@ -5,9 +5,9 @@ import java.math.BigDecimal
 
 @Introspected
 data class ConstituentGasesResponse(
-    val co2eTotal: BigDecimal?,
-    val co2eOther: BigDecimal?,
-    val co2: BigDecimal,
-    val ch4: BigDecimal,
-    val n2o: BigDecimal
+    val co2e_total: BigDecimal?,
+    val co2e_other: BigDecimal?,
+    val co2: BigDecimal?,
+    val ch4: BigDecimal?,
+    val n2o: BigDecimal?
 )

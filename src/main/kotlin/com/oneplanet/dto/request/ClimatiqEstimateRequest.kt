@@ -4,6 +4,6 @@ import io.micronaut.core.annotation.Introspected
 
 @Introspected
 data class ClimatiqEstimateRequest(
-    val emissionFactor : EmissionFactorRequest,
+    val emission_factor : EmissionFactorRequest,
     val parameters: ParametersRequest
     )
